@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.12.1/JsBarcode.all.min.js"
+        integrity="sha512-fLmJPYDfCIAZ0gpG/iiIzPw113KquhzI1bxG0XhiLYyqm8Ax2lEiq1h1qv2vafH9tLzkjm4HYRWSeKoGFH4xIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body style="background-color: rgb(209, 237, 248); color: color-mix(in srgb-linear, color percentage, color percentage);">
+    <h3 style="font-style:italic;">Barcodes in HTML are typically generated using JavaScript libraries that convert data into a visual representation
+        of bars and spaces. These generated barcodes can then be displayed within HTML elements, allowing for the integration
+        of barcode functionality into web pages and applications. While HTML itself doesn't natively support barcodes,
+        libraries
+        and scripts can be used to create and display them.</h1>
+    <details>
+        <summary style="color: rgb(252, 34, 45);">Barcodes anb QR codes</summary>
+        <canvas id="demo"></canvas>
+        <script>
+            JsBarcode("#demo", " mi reina(07)")
+        </script> <br><br>
+        <canvas id="demo1"></canvas>
+        <script>
+            JsBarcode("#demo1", " kishore josh07")
+        </script> <br><br>
+
+        <summary style="color: rgb(66, 3, 240);">QR codes</summary> <br>
+        <iframe src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://student.qspiders.com/" frameborder="0"></iframe>   
+        <br> <br><br>
+       <iframe src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.instagram.com/shiva_karthik_1413/?hl=en" frameborder="0"></iframe>  
+    </details>
+    <hr>
+    <details>
+        <summary style="color: rgb(14, 204, 77);">Youtube and Gmaps</summary>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6CKCThJB5w0?si=4mbi9d3SzQ1aPJ_h"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ieFWfWtKmTc?si=kW849s5ktxl4pnZG"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <br><br>
+
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31095.130075944868!2d80.21805412419428!3d13.042593035851494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526655a5da2371%3A0x4954f49743f04af0!2sT.%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1751696829073!5m2!1sen!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62821.053484167285!2d77.4571201108699!3d10.236090509540656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0766637f0a0387%3A0x9ffae9373758c13c!2sKodaikanal%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1751697144121!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+        </details>
+        <hr>
+        <details>
+            <summary style="color: rgb(168, 152, 7);">images</summary>
+            <table>
+                <tr>
+                    <td><img src="https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863_640.jpg" alt=""></td>
+                    <td style="font-size: xx-large; color: rgb(45, 136, 17);" align="center"> &clubs;&nbsp; Montane and village life offer contrasting, yet interconnected, experiences. Montane life revolves around the unique
+                    challenges and adaptations of living in high-altitude, mountainous regions, while village life generally emphasizes
+                    community, agriculture, and a slower pace of existence. Montane environments often feature cooler, wetter climates and
+                    distinct vegetation zones, requiring specific adaptations from both flora and fauna. In contrast, village life, while
+                    diverse, tends to be centered around close-knit communities, agriculture, and a strong connection to the land.</td>
+                </tr>
+            </table>
+            <h4 style="color: crimson;">&nbsp;audio file</h4>
+            <table>
+                <tr>
+                    <td><img src="https://cdn.pixabay.com/photo/2023/02/16/03/43/music-player-7792956_640.jpg" alt=""></td>
+                    <td style="font-size: xx-large; color: rgb(43, 70, 226);" >&gt; &nbsp;An audio file is a digital recording of sound, stored in a specific format that allows it to be played on computers or
+                    other devices. Common formats include MP3, WAV, and AAC, each with its own characteristics regarding file size and audio
+                    quality. These formats use different methods to encode and compress audio data, impacting both the file size and the
+                    fidelity of the sound</td>
+                </tr>
+            </table>
+            <hr>
+            <table>
+                <tr>
+                    <td><video src="https://cdn.pixabay.com/video/2017/11/02/12716-241674181_tiny.mp4" controls loop muted width="650px"></video></td>
+                    <td style="font-size: xx-large; color: rgb(219, 57, 119);" >&nbsp;A video file is a digital file format used to store moving images and sound, enabling playback on various devices. It
+                    typically consists of a container that holds video and audio data, along with metadata and potentially subtitles. These
+                    files are commonly found in formats like MP4, MOV, and AVI, each with its own characteristics and suitability for
+                    different purposes.</td>
+                </tr>
+            </table>
+            
+           
+        </details>
+        <h3></h3>
+<br><br>
+        <button><a href="./project_nestedlist.html">go to listed page</a></button>
+
+        
+
+
+
+</body>
+</html>
